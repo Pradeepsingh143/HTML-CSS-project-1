@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  height: 100vh;
+  width: 80%;
+  margin: auto;
+}
+
+.navbar-container {
+  padding: 30px 0;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-container img {
+  width: 150px;
+}
+.navbar-container ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar-container ul > li {
+  padding: 10px 25px;
+  font-family: Orbitron, sans-serif;
+  font-size: 18px;
+}
+
+.button-group {
+  display: flex;
+}
+
+.button-group > .search-icon > svg {
+  width: 20px;
+  padding: 6px 14px;
+}
+.nav-button {
+  padding: 9px 40px;
+  border-radius: 10px;
+  font-size: 17px;
+}
+
+.hero-container {
+  display: flex;
+  height: 600px;
+  align-items: center;
+}
+
+.hero-container > .star {
+  position: absolute;
+  top: 130px;
+  right: 170px;
+}
+
+.hero-container > .globe {
+  position: absolute;
+  top: 110px;
+  right: 650px;
+}
+
+.hero-container > .square {
+  position: absolute;
+  z-index: -1;
+  left: 290px;
+  top: 400px;
+}
+.hero-container > .square > img {
+  width: 260px;
+}
+
+div > img {
+  z-index: 2;
+  width: 350px;
+}
+
+.hero-container-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 600px;
+  padding: 50px;
+  flex-grow: 1;
+  text-align: center;
+}
+
+h1.hero-heading {
+  margin-top: 70px;
+  font-size: 50px;
+  font-family: Orbitron, sans-serif;
+}
+
+p.hero-description {
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  padding: 0 40px;
+  font-weight: 300;
+}
+
+.button-email {
+  font-family: Orbitron, sans-serif;
+  padding: 6px 25px;
+  border: 2px solid #000;
+  border-radius: 8px;
+  font-size: 20px;
+  color: #000;
+}
+
+.button-join {
+  margin-left: 10px;
+  background-color: #000;
+  font-family: Orbitron, sans-serif;
+  padding: 7px 25px;
+  font-size: 20px;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+}
+
+.contact-heading {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 40px;
+}
+.icons {
+  font-size: 20px;
+}
